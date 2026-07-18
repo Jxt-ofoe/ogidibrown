@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Sitemap for Ogidibrown 77 Enterprise (single-page site).
+     NOTE: replace https://www.ogidibrown77.com with your live domain before deploying. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.ogidibrown77.com/</loc>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+
+    <!-- Image sitemap entries (latest image-publishing best practice) -->
+    <image:image>
+      <image:loc>https://www.ogidibrown77.com/images/hero.jpg</image:loc>
+      <image:title>Luxurious living room with book-matched Kingmarble feature wall — Ogidibrown 77 Enterprise, Kumasi</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ogidibrown77.com/images/about.jpg</image:loc>
+      <image:title>Ogidibrown craftsmen installing a Kingmarble wall panel in a Ghanaian home</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ogidibrown77.com/images/gallery-tvwall.jpg</image:loc>
+      <image:title>Book-matched Kingmarble TV feature wall with LED backlighting, Kumasi</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ogidibrown77.com/images/gallery-ceiling.jpg</image:loc>
+      <image:title>Coffered Kingmarble ceiling with warm recessed lighting and brass trim</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ogidibrown77.com/images/gallery-kitchen.jpg</image:loc>
+      <image:title>Bespoke kitchen cabinetry with marble-finish fronts and brass handles</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ogidibrown77.com/images/gallery-bathroom.jpg</image:loc>
+      <image:title>Hotel-style washroom finished in full-height Kingmarble wall panels</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ogidibrown77.com/images/gallery-bedroom.jpg</image:loc>
+      <image:title>Bedroom with Kingmarble headboard feature wall and fitted wardrobes</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ogidibrown77.com/images/gallery-commercial.jpg</image:loc>
+      <image:title>Commercial reception lobby with marble-clad desk and feature wall, Accra</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ogidibrown77.com/images/gallery-staircase.jpg</image:loc>
+      <image:title>Staircase hallway clad in cream Kingmarble panels with brass railing</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ogidibrown77.com/images/gallery-wardrobe.jpg</image:loc>
+      <image:title>Walk-in wardrobe with marble-finish doors and LED-lit shelving</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ogidibrown77.com/images/gallery-samples.jpg</image:loc>
+      <image:title>Kingmarble sample boards — cream and beige panels with gold and grey veining</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ogidibrown77.com/images/gallery-exterior.jpg</image:loc>
+      <image:title>Modern Ghanaian home with weatherproof Kingmarble facade cladding at golden hour</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ogidibrown77.com/images/gallery-solar.jpg</image:loc>
+      <image:title>Solar panel installation on the roof of a cream-clad home in Ghana</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ogidibrown77.com/images/logo.png</image:loc>
+      <image:title>Ogidibrown 77 Enterprise logo</image:title>
+    </image:image>
+  </url>
+</urlset>
