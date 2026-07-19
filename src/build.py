@@ -4,7 +4,7 @@ data URIs and injects width/height/decoding attributes (CLS-safe, async decode).
 import base64, io, os
 from PIL import Image
 
-ROOT = '/home/user'
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 # token -> (file, max width, quality, width attr, height attr, extra attrs)
 JOBS = {
     '%%IMG_HERO%%': ('images/hero.jpg',               1376, 77, 1376, 768, ''),
@@ -20,6 +20,10 @@ JOBS = {
     '%%IMG_G9%%':    ('images/gallery-samples.jpg',   1100, 72, 1408, 768, 'decoding="async" '),
     '%%IMG_G10%%':   ('images/gallery-exterior.jpg',  1300, 73, 1408, 768, 'decoding="async" '),
     '%%IMG_G11%%':   ('images/gallery-solar.jpg',     1100, 72, 1408, 768, 'decoding="async" '),
+    '%%IMG_G12%%':   ('images/photo_2026-07-19_10-31-38.jpg', 1100, 72, 1408, 768, 'decoding="async" '),
+    '%%IMG_G13%%':   ('images/photo_2026-07-19_10-31-42.jpg', 1100, 72, 1408, 768, 'decoding="async" '),
+    '%%IMG_G14%%':   ('images/photo_2026-07-19_10-32-20.jpg', 1100, 72, 1408, 768, 'decoding="async" '),
+    '%%IMG_G15%%':   ('images/photo_2026-07-19_10-32-23.jpg', 1100, 72, 1408, 768, 'decoding="async" '),
 }
 
 def enc(path, maxw, q):
