@@ -22,8 +22,18 @@ JOBS = {
     '%%IMG_G11%%':   ('images/gallery-solar.jpg',     1100, 72, 1408, 768, 'decoding="async" '),
     '%%IMG_G12%%':   ('images/photo_2026-07-19_10-31-38.jpg', 1100, 72, 1408, 768, 'decoding="async" '),
     '%%IMG_G13%%':   ('images/photo_2026-07-19_10-31-42.jpg', 1100, 72, 1408, 768, 'decoding="async" '),
-    '%%IMG_G14%%':   ('images/photo_2026-07-19_10-32-20.jpg', 1100, 72, 1408, 768, 'decoding="async" '),
-    '%%IMG_G15%%':   ('images/photo_2026-07-19_10-32-23.jpg', 1100, 72, 1408, 768, 'decoding="async" '),
+    '%%IMG_G14%%':   ('images/photo_2026-07-19_10-31-45.jpg', 1100, 72, 1408, 768, 'decoding="async" '),
+    '%%IMG_G15%%':   ('images/photo_2026-07-19_10-31-46.jpg', 1100, 72, 1408, 768, 'decoding="async" '),
+    '%%IMG_G16%%':   ('images/photo_2026-07-19_10-31-49.jpg', 1100, 72, 1408, 768, 'decoding="async" '),
+    '%%IMG_G17%%':   ('images/photo_2026-07-19_10-31-53.jpg', 1100, 72, 1408, 768, 'decoding="async" '),
+    '%%IMG_G18%%':   ('images/photo_2026-07-19_10-31-56.jpg', 1100, 72, 1408, 768, 'decoding="async" '),
+    '%%IMG_G19%%':   ('images/photo_2026-07-19_10-31-58.jpg', 1100, 72, 1408, 768, 'decoding="async" '),
+    '%%IMG_G20%%':   ('images/photo_2026-07-19_10-32-01.jpg', 1100, 72, 1408, 768, 'decoding="async" '),
+    '%%IMG_G21%%':   ('images/photo_2026-07-19_10-32-03.jpg', 1100, 72, 1408, 768, 'decoding="async" '),
+    '%%IMG_G22%%':   ('images/photo_2026-07-19_10-32-06.jpg', 1100, 72, 1408, 768, 'decoding="async" '),
+    '%%IMG_G23%%':   ('images/photo_2026-07-19_10-32-18.jpg', 1100, 72, 1408, 768, 'decoding="async" '),
+    '%%IMG_G24%%':   ('images/photo_2026-07-19_10-32-20.jpg', 1100, 72, 1408, 768, 'decoding="async" '),
+    '%%IMG_G25%%':   ('images/photo_2026-07-19_10-32-23.jpg', 1100, 72, 1408, 768, 'decoding="async" '),
 }
 
 def enc(path, maxw, q):
@@ -38,7 +48,7 @@ html = open(os.path.join(ROOT, 'src/template.html'), encoding='utf-8').read()
 for token, (p, w, q, wa, ha, extra) in JOBS.items():
     assert f'src="{token}"' in html, f'MISSING {token}'
     uri = enc(p, w, q)
-    html = html.replace(f'src="{token}"', f'width="{wa}" height="{ha}" {extra}src="{uri}"', 1)
+    html = html.replace(f'src="{token}"', f'width="{wa}" height="{ha}" {extra}src="{uri}"')
     print(f'  {p:34s} -> {len(uri)/1024:6.0f} KB')
 
 assert '%%IMG' not in html, 'unreplaced tokens remain'
