@@ -8,7 +8,7 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 # token -> (file, max width, quality, width attr, height attr, extra attrs)
 JOBS = {
     '%%IMG_HERO%%': ('images/hero.jpg',               1376, 77, 1376, 768, ''),
-    '%%IMG_ABOUT%%': ('images/about.jpg',             1100, 72, 1408, 768, 'decoding="async" '),
+    '%%IMG_ABOUT%%': ('images/photo_2026-07-19_10-31-38.jpg', 1100, 72, 1408, 768, 'decoding="async" '),
     '%%IMG_G1%%':    ('images/gallery-ceiling.jpg',   1100, 72, 1408, 768, 'decoding="async" '),
     '%%IMG_G2%%':    ('images/gallery-tvwall.jpg',    1100, 72, 1408, 768, 'decoding="async" '),
     '%%IMG_G3%%':    ('images/gallery-kitchen.jpg',   1100, 72, 1408, 768, 'decoding="async" '),
