@@ -1,5 +1,4 @@
 # Ogidibrown 77 Enterprise — robots.txt
-# NOTE: replace https://www.ogidibrown77.com with your live domain before deploying.
 
 User-agent: *
 Allow: /
@@ -8,4 +7,4 @@ Allow: /
 Disallow: /src/
 Disallow: /build/
 
-Sitemap: https://www.ogidibrown77.com/sitemap.xml
+Sitemap: https://www.ogidibrowninterior.com/sitemap.xml
